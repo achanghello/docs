@@ -1,10 +1,24 @@
+const moment = require('moment');
+moment.locale("zh-cn")
+
 module.exports = {
+  base: "/docs/",
   title: "青鸟飞鱼",
   description: "青鸟飞鱼的博客",
   head: [
     ['meta', { name: 'author', content: '青鸟飞鱼' }],
     ['meta', { name: 'Keywords', content: '青鸟飞鱼各自生活永不相见' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp) => {
+          return moment(timestamp).format("LLLL")
+        }
+      }
+    ]
   ],
   themeConfig: {
     lastUpdated: '更新时间', // string | boolean

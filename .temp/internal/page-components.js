@@ -5,10 +5,10 @@ export default {
   "v-9b5d2016": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\README.md"),
   "v-4c0267ce": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\css\\css-a.md"),
   "v-a3f0adb4": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\chang.md"),
-  "v-026b53ea": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\language\\chinese\\README.md"),
-  "v-5ee7fae3": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\language\\japanese\\README.md"),
-  "v-aa6daed0": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\language\\README.md"),
   "v-7050ca26": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\about.md"),
   "v-ad43f30e": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\css\\css-b.md"),
+  "v-5ee7fae3": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\language\\japanese\\README.md"),
+  "v-026b53ea": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\language\\chinese\\README.md"),
+  "v-aa6daed0": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\language\\README.md"),
   "v-3648cc7a": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\css\\README.md") 
 }

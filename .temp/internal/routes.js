@@ -37,42 +37,6 @@ export const routes = [
     },
   },
   {
-    name: "v-026b53ea",
-    path: "/language/chinese/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-026b53ea").then(next)
-    },
-  },
-  {
-    path: "/language/chinese/index.html",
-    redirect: "/language/chinese/"
-  },
-  {
-    name: "v-5ee7fae3",
-    path: "/language/japanese/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5ee7fae3").then(next)
-    },
-  },
-  {
-    path: "/language/japanese/index.html",
-    redirect: "/language/japanese/"
-  },
-  {
-    name: "v-aa6daed0",
-    path: "/language/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-aa6daed0").then(next)
-    },
-  },
-  {
-    path: "/language/index.html",
-    redirect: "/language/"
-  },
-  {
     name: "v-7050ca26",
     path: "/about.html",
     component: GlobalLayout,
@@ -87,6 +51,42 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-ad43f30e").then(next)
     },
+  },
+  {
+    name: "v-5ee7fae3",
+    path: "/language/japanese/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5ee7fae3").then(next)
+    },
+  },
+  {
+    path: "/language/japanese/index.html",
+    redirect: "/language/japanese/"
+  },
+  {
+    name: "v-026b53ea",
+    path: "/language/chinese/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-026b53ea").then(next)
+    },
+  },
+  {
+    path: "/language/chinese/index.html",
+    redirect: "/language/chinese/"
+  },
+  {
+    name: "v-aa6daed0",
+    path: "/language/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-aa6daed0").then(next)
+    },
+  },
+  {
+    path: "/language/index.html",
+    redirect: "/language/"
   },
   {
     name: "v-3648cc7a",

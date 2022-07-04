@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "青鸟飞鱼",
   "description": "青鸟飞鱼的博客",
-  "base": "/",
+  "base": "/docs/",
   "headTags": [
     [
       "meta",
@@ -24,7 +24,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/docs/favicon.ico"
       }
     ]
   ],
@@ -55,7 +55,9 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-9b5d2016",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
     },
     {
       "frontmatter": {
@@ -64,7 +66,9 @@ export const siteData = {
       "regularPath": "/css/css-a.html",
       "relativePath": "css/css-a.md",
       "key": "v-4c0267ce",
-      "path": "/css/css-a.html"
+      "path": "/css/css-a.html",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
     },
     {
       "title": "chang",
@@ -124,39 +128,9 @@ export const siteData = {
           "title": "一级标题",
           "slug": "一级标题-5"
         }
-      ]
-    },
-    {
-      "title": "中火花",
-      "frontmatter": {},
-      "regularPath": "/language/chinese/",
-      "relativePath": "language/chinese/README.md",
-      "key": "v-026b53ea",
-      "path": "/language/chinese/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "中火花",
-          "slug": "中火花"
-        }
-      ]
-    },
-    {
-      "frontmatter": {
-        "navbar": false
-      },
-      "regularPath": "/language/japanese/",
-      "relativePath": "language/japanese/README.md",
-      "key": "v-5ee7fae3",
-      "path": "/language/japanese/"
-    },
-    {
-      "title": "asdad",
-      "frontmatter": {},
-      "regularPath": "/language/",
-      "relativePath": "language/README.md",
-      "key": "v-aa6daed0",
-      "path": "/language/"
+      ],
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
     },
     {
       "title": "关于我",
@@ -171,7 +145,9 @@ export const siteData = {
           "title": "关于我",
           "slug": "关于我"
         }
-      ]
+      ],
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
     },
     {
       "frontmatter": {
@@ -180,7 +156,47 @@ export const siteData = {
       "regularPath": "/css/css-b.html",
       "relativePath": "css/css-b.md",
       "key": "v-ad43f30e",
-      "path": "/css/css-b.html"
+      "path": "/css/css-b.html",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
+    },
+    {
+      "frontmatter": {
+        "navbar": false
+      },
+      "regularPath": "/language/japanese/",
+      "relativePath": "language/japanese/README.md",
+      "key": "v-5ee7fae3",
+      "path": "/language/japanese/",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
+    },
+    {
+      "title": "中火花",
+      "frontmatter": {},
+      "regularPath": "/language/chinese/",
+      "relativePath": "language/chinese/README.md",
+      "key": "v-026b53ea",
+      "path": "/language/chinese/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "中火花",
+          "slug": "中火花"
+        }
+      ],
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
+    },
+    {
+      "title": "asdad",
+      "frontmatter": {},
+      "regularPath": "/language/",
+      "relativePath": "language/README.md",
+      "key": "v-aa6daed0",
+      "path": "/language/",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
     },
     {
       "frontmatter": {
@@ -189,7 +205,9 @@ export const siteData = {
       "regularPath": "/css/",
       "relativePath": "css/README.md",
       "key": "v-3648cc7a",
-      "path": "/css/"
+      "path": "/css/",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
     }
   ],
   "themeConfig": {
