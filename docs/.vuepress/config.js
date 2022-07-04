@@ -41,7 +41,8 @@ module.exports = {
       clientId: '5cd8e02d922c3dec24da',
       clientSecret: '876375c03a376fb3e23d1eea22c857a1ed1624c2',
       autoCreateIssue: true
-    }
+    },
+    '@vuepress/back-to-top': true
   },
   themeConfig: {
     lastUpdated: '更新时间', // string | boolean
