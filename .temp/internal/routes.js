@@ -9,26 +9,6 @@ import GlobalLayout from "D:\\a学习文件\\vuepress\\docs\\node_modules\\@vuep
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-3648cc7a",
-    path: "/css/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3648cc7a").then(next)
-    },
-  },
-  {
-    path: "/css/index.html",
-    redirect: "/css/"
-  },
-  {
-    name: "v-a3f0adb4",
-    path: "/chang.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a3f0adb4").then(next)
-    },
-  },
-  {
     name: "v-9b5d2016",
     path: "/",
     component: GlobalLayout,
@@ -41,6 +21,34 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-7050ca26",
+    path: "/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7050ca26").then(next)
+    },
+  },
+  {
+    name: "v-a3f0adb4",
+    path: "/chang.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a3f0adb4").then(next)
+    },
+  },
+  {
+    name: "v-3648cc7a",
+    path: "/css/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3648cc7a").then(next)
+    },
+  },
+  {
+    path: "/css/index.html",
+    redirect: "/css/"
+  },
+  {
     name: "v-aa6daed0",
     path: "/language/",
     component: GlobalLayout,
@@ -51,18 +59,6 @@ export const routes = [
   {
     path: "/language/index.html",
     redirect: "/language/"
-  },
-  {
-    name: "v-026b53ea",
-    path: "/language/chinese/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-026b53ea").then(next)
-    },
-  },
-  {
-    path: "/language/chinese/index.html",
-    redirect: "/language/chinese/"
   },
   {
     name: "v-4c0267ce",
@@ -85,12 +81,16 @@ export const routes = [
     redirect: "/language/japanese/"
   },
   {
-    name: "v-7050ca26",
-    path: "/about.html",
+    name: "v-026b53ea",
+    path: "/language/chinese/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7050ca26").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-026b53ea").then(next)
     },
+  },
+  {
+    path: "/language/chinese/index.html",
+    redirect: "/language/chinese/"
   },
   {
     name: "v-ad43f30e",
