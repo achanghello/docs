@@ -26,47 +26,74 @@ export const siteData = {
         "rel": "icon",
         "href": "/docs/favicon.ico"
       }
+    ],
+    [
+      "link",
+      {
+        "rel": "manifest",
+        "href": "/docs/manifest.json"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "theme-color",
+        "content": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "black"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "apple-touch-icon",
+        "href": "/docs/icons/apple-touch-icon-152x152.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "mask-icon",
+        "href": "/docs/icons/safari-pinned-tab.svg",
+        "color": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileImage",
+        "content": "/icons/msapplication-icon-144x144.png"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileColor",
+        "content": "#000000"
+      }
     ]
   ],
   "pages": [
     {
-      "title": "Hello VuePress",
       "frontmatter": {
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+        "titlt": "css的主页面"
       },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-9b5d2016",
-      "path": "/",
-      "lastUpdated": "2022年7月4日星期一下午3点20分",
-      "lastUpdatedTimestamp": 1656919221000
-    },
-    {
-      "frontmatter": {
-        "titlt": "css下面的a页面"
-      },
-      "regularPath": "/css/css-a.html",
-      "relativePath": "css/css-a.md",
-      "key": "v-4c0267ce",
-      "path": "/css/css-a.html",
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-3648cc7a",
+      "path": "/css/",
       "lastUpdated": "2022年7月4日星期一下午3点20分",
       "lastUpdatedTimestamp": 1656919221000
     },
@@ -133,6 +160,92 @@ export const siteData = {
       "lastUpdatedTimestamp": 1656919221000
     },
     {
+      "title": "Hello VuePress!",
+      "frontmatter": {
+        "heroText": "Hero 标题",
+        "tagline": "Hero 副标题",
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-9b5d2016",
+      "path": "/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "PWA",
+          "slug": "pwa"
+        }
+      ],
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
+    },
+    {
+      "title": "asdad",
+      "frontmatter": {},
+      "regularPath": "/language/",
+      "relativePath": "language/README.md",
+      "key": "v-aa6daed0",
+      "path": "/language/",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
+    },
+    {
+      "title": "中火花",
+      "frontmatter": {},
+      "regularPath": "/language/chinese/",
+      "relativePath": "language/chinese/README.md",
+      "key": "v-026b53ea",
+      "path": "/language/chinese/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "中火花",
+          "slug": "中火花"
+        }
+      ],
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
+    },
+    {
+      "frontmatter": {
+        "titlt": "css下面的a页面"
+      },
+      "regularPath": "/css/css-a.html",
+      "relativePath": "css/css-a.md",
+      "key": "v-4c0267ce",
+      "path": "/css/css-a.html",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
+    },
+    {
+      "frontmatter": {
+        "navbar": false
+      },
+      "regularPath": "/language/japanese/",
+      "relativePath": "language/japanese/README.md",
+      "key": "v-5ee7fae3",
+      "path": "/language/japanese/",
+      "lastUpdated": "2022年7月4日星期一下午3点20分",
+      "lastUpdatedTimestamp": 1656919221000
+    },
+    {
       "title": "关于我",
       "frontmatter": {},
       "regularPath": "/about.html",
@@ -157,55 +270,6 @@ export const siteData = {
       "relativePath": "css/css-b.md",
       "key": "v-ad43f30e",
       "path": "/css/css-b.html",
-      "lastUpdated": "2022年7月4日星期一下午3点20分",
-      "lastUpdatedTimestamp": 1656919221000
-    },
-    {
-      "frontmatter": {
-        "navbar": false
-      },
-      "regularPath": "/language/japanese/",
-      "relativePath": "language/japanese/README.md",
-      "key": "v-5ee7fae3",
-      "path": "/language/japanese/",
-      "lastUpdated": "2022年7月4日星期一下午3点20分",
-      "lastUpdatedTimestamp": 1656919221000
-    },
-    {
-      "title": "中火花",
-      "frontmatter": {},
-      "regularPath": "/language/chinese/",
-      "relativePath": "language/chinese/README.md",
-      "key": "v-026b53ea",
-      "path": "/language/chinese/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "中火花",
-          "slug": "中火花"
-        }
-      ],
-      "lastUpdated": "2022年7月4日星期一下午3点20分",
-      "lastUpdatedTimestamp": 1656919221000
-    },
-    {
-      "title": "asdad",
-      "frontmatter": {},
-      "regularPath": "/language/",
-      "relativePath": "language/README.md",
-      "key": "v-aa6daed0",
-      "path": "/language/",
-      "lastUpdated": "2022年7月4日星期一下午3点20分",
-      "lastUpdatedTimestamp": 1656919221000
-    },
-    {
-      "frontmatter": {
-        "titlt": "css的主页面"
-      },
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-3648cc7a",
-      "path": "/css/",
       "lastUpdated": "2022年7月4日星期一下午3点20分",
       "lastUpdatedTimestamp": 1656919221000
     }

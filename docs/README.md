@@ -15,4 +15,12 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-# Hello VuePress
+# Hello VuePress!
+
+## PWA
+
+为了掩饰 PWA 弹窗效果的内容。
+
+注意需要在本地安装 vuepress yarn add -D vuepress!!!
+
+至简至上

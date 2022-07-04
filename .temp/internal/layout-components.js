@@ -3,5 +3,5 @@
  */
 export default {
   "NotFound": () => import("D:\\a学习文件\\vuepress\\docs\\node_modules\\@vuepress\\theme-default\\layouts\\404.vue"),
-  "Layout": () => import("D:\\a学习文件\\vuepress\\docs\\node_modules\\@vuepress\\theme-default\\layouts\\Layout.vue") 
+  "Layout": () => import("D:\\a学习文件\\vuepress\\docs\\docs\\.vuepress\\theme\\layouts\\Layout.vue") 
 }
