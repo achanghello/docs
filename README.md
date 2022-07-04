@@ -1,2 +1,1 @@
-# docs
-学习vuepress加油
+# Hello VuePress
