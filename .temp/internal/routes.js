@@ -9,18 +9,6 @@ import GlobalLayout from "D:\\a学习文件\\vuepress\\docs\\node_modules\\@vuep
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-9b5d2016",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9b5d2016").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-7050ca26",
     path: "/about.html",
     component: GlobalLayout,
@@ -49,6 +37,26 @@ export const routes = [
     redirect: "/css/"
   },
   {
+    name: "v-4faa9f06",
+    path: "/countup.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4faa9f06").then(next)
+    },
+  },
+  {
+    name: "v-9b5d2016",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9b5d2016").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
     name: "v-aa6daed0",
     path: "/language/",
     component: GlobalLayout,
@@ -61,11 +69,11 @@ export const routes = [
     redirect: "/language/"
   },
   {
-    name: "v-4c0267ce",
-    path: "/css/css-a.html",
+    name: "v-ad43f30e",
+    path: "/css/css-b.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4c0267ce").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-ad43f30e").then(next)
     },
   },
   {
@@ -93,11 +101,11 @@ export const routes = [
     redirect: "/language/chinese/"
   },
   {
-    name: "v-ad43f30e",
-    path: "/css/css-b.html",
+    name: "v-4c0267ce",
+    path: "/css/css-a.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ad43f30e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4c0267ce").then(next)
     },
   },
   {

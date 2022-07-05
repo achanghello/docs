@@ -87,43 +87,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Hello VuePress!",
-      "frontmatter": {
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-9b5d2016",
-      "path": "/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "PWA",
-          "slug": "pwa"
-        }
-      ],
-      "lastUpdated": "2022年7月4日星期一晚上8点13分",
-      "lastUpdatedTimestamp": 1656936839000
-    },
-    {
       "title": "关于我",
       "frontmatter": {},
       "regularPath": "/about.html",
@@ -214,6 +177,53 @@ export const siteData = {
       "lastUpdatedTimestamp": 1656919221000
     },
     {
+      "title": "CountUp 第三方组件",
+      "frontmatter": {
+        "title": "CountUp 第三方组件"
+      },
+      "regularPath": "/countup.html",
+      "relativePath": "countup.md",
+      "key": "v-4faa9f06",
+      "path": "/countup.html"
+    },
+    {
+      "title": "Hello VuePress!",
+      "frontmatter": {
+        "heroText": "Hero 标题",
+        "tagline": "Hero 副标题",
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-9b5d2016",
+      "path": "/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "PWA",
+          "slug": "pwa"
+        }
+      ],
+      "lastUpdated": "2022年7月4日星期一晚上8点13分",
+      "lastUpdatedTimestamp": 1656936839000
+    },
+    {
       "title": "asdad",
       "frontmatter": {},
       "regularPath": "/language/",
@@ -225,12 +235,12 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "titlt": "css下面的a页面"
+        "titlt": "css下面的b页面"
       },
-      "regularPath": "/css/css-a.html",
-      "relativePath": "css/css-a.md",
-      "key": "v-4c0267ce",
-      "path": "/css/css-a.html",
+      "regularPath": "/css/css-b.html",
+      "relativePath": "css/css-b.md",
+      "key": "v-ad43f30e",
+      "path": "/css/css-b.html",
       "lastUpdated": "2022年7月4日星期一下午3点20分",
       "lastUpdatedTimestamp": 1656919221000
     },
@@ -264,12 +274,12 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "titlt": "css下面的b页面"
+        "titlt": "css下面的a页面"
       },
-      "regularPath": "/css/css-b.html",
-      "relativePath": "css/css-b.md",
-      "key": "v-ad43f30e",
-      "path": "/css/css-b.html",
+      "regularPath": "/css/css-a.html",
+      "relativePath": "css/css-a.md",
+      "key": "v-4c0267ce",
+      "path": "/css/css-a.html",
       "lastUpdated": "2022年7月4日星期一下午3点20分",
       "lastUpdatedTimestamp": 1656919221000
     }
